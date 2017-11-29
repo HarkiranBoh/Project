@@ -1,0 +1,33 @@
+.homepage-logoimage {
+  
+}
+.homepage-logo-nav {
+  /*display: inline-flex;*/
+  border: 1px solid black;
+  
+}
+.homepage-navigation {
+    display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+  border: 1px solid black;
+}
+
+.homepage-navigation-links {
+  list-style-type: none;
+  /*margin:0 auto;*/
+}
+
+.homepage-navigation li {
+    display: inline-block;         
+    padding: 24px;
+  }
+
+.homepage-image-carousel {
+  border: solid 1px black;
+}
+
+.homepage-information-container {
+  
+}
