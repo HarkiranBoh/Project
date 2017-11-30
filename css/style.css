@@ -1,3 +1,9 @@
+body{
+  background-color: #444444;
+  color: #f4f4f4;  
+  font-family: sans-serif;
+  padding: 20px;
+}
 
 .homepage-logoimage {
   
@@ -29,20 +35,11 @@
   border: solid 1px black;
 }
 
-.homepage-information-container {
-  
-}
-
 .homepage-footer {
   border: 1px solid black;
+  position: relative;
 }
 
-body{
-  background-color: #444444;
-  color: #f4f4f4;  
-  font-family: sans-serif;
-  padding: 20px;
-}
 
 .footer-info {
   max-width: 1080px;
@@ -91,10 +88,6 @@ body{
   color: #716f6f; 
   font-family: sans-serif;
   font-weight: bold;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 35px;
   text-align: center;  
 }
@@ -119,56 +112,51 @@ ul {
 .footer-social-section{
   
 }
-.pinterest{
-  margin-left: 98px;
-  margin-top: -34px;
-}
-.twitter{
-  margin-left: 98px;
-  margin-top: -24px;
+
+.socialmediatext {
+	float:left;
+	padding: 15px;
+	margin:0;
 }
 
-.twittercircle{
-  border-radius: 50%;
-}
-.fb{
-  margin-left: 98px;
-  margin-right:-40px;
-}
-
-.c{
+.circle{
   border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: #7b7b7b;
-}
-.t{
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: #7b7b7b;
-}
-.p{
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: #7b7b7b;
+  float: left;
+  clear: both;
+  margin: 5px;
 }
 .facebookicon{
   width: 31px;
   height: 31px;
   opacity: 0.4;
+  margin: 4px;
 }
 
 .twittericon{
   width: 31px;
   height: 31px;
   opacity: 0.4;
+  margin: 4px;
 }
 .pinteresticon{
   width: 31px;
   height: 31px;
   opacity: 0.4;
+  margin: 4px;
 }
 
+.homepage-information-container {
+	display: flex;
+}
+.homepage-information-item {
+	display: flex;
+	width: 33%;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.homepage-information-item p {
 
+}
