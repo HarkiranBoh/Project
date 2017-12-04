@@ -24,6 +24,9 @@ body{
 .homepage-navigation-links {
   list-style-type: none;
   /*margin:0 auto;*/
+  &:a {
+    color: white;
+  }
 }
 
 .homepage-navigation li {
