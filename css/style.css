@@ -1,54 +1,73 @@
 body{
   background-color: #444444;
-  color: #f4f4f4;  
+  color: #f4f4f4;
   font-family: sans-serif;
   padding: 20px;
 }
 
 .homepage-logoimage {
-  
+  display: inline-block;
+  height: 50%;
+  width: auto;
+  vertical-align: top;
 }
 .homepage-logo-nav {
   /*display: inline-flex;*/
   border: 1px solid black;
-  
+
 }
 .homepage-navigation {
-    display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
   border: 1px solid black;
+  background: black;
+  height: 100px;
+  width: 91%;
+  height: 100px;
+  display: inline-block;
+  padding-right: 9px
 }
 
 .homepage-navigation-links {
   list-style-type: none;
-  /*margin:0 auto;*/
-  &:a {
-    color: white;
-  }
+  text-align: right;
+}
+
+.homepage-navigation-links a {
+  color: white;
 }
 
 .homepage-navigation li {
-    display: inline-block;         
+    display: inline-block;
     padding: 24px;
+
   }
 
 .homepage-image-carousel {
-  border: solid 1px black; 
-  
+  border: solid 1px black;
+
 }
 
 .homepage-image-carousel img {
   width: 100%;
 }
 
+.homepage-information-container {
+	display: flex;
+}
+.homepage-information-item {
+	display: flex;
+	width: 33%;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.homepage-information-item p {
 
+}
+
+/* footer */
 .homepage-footer {
   border: 1px solid black;
   position: relative;
 }
-
 
 .footer-info {
   max-width: 1080px;
@@ -94,11 +113,11 @@ body{
 
 .footer-bottom-section{
   background-color: #393939;
-  color: #716f6f; 
+  color: #716f6f;
   font-family: sans-serif;
   font-weight: bold;
   padding: 35px;
-  text-align: center;  
+  text-align: center;
 }
 
 ul {
@@ -117,9 +136,8 @@ ul {
   color:#7b7b7b;
 }
 
-
 .footer-social-section{
-  
+
 }
 
 .socialmediatext {
@@ -155,17 +173,4 @@ ul {
   height: 31px;
   opacity: 0.4;
   margin: 4px;
-}
-
-.homepage-information-container {
-	display: flex;
-}
-.homepage-information-item {
-	display: flex;
-	width: 33%;
-	justify-content: space-around;
-	flex-direction: row;
-}
-.homepage-information-item p {
-
 }
