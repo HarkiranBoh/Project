@@ -7,7 +7,7 @@ body{
   font-family: 'Open sans', sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 22px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ body{
 }
 
 .homepage-information-container {
-  max-width: 1170px;
+/*  max-width: 1170px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -31,7 +31,9 @@ body{
 .navigation {
   background-color: #201F51;
   color: #fff;
-  /*position: fixed;*/
+  position: fixed;
+  padding: 5px;
+  width: 100%;
 }
 
 #menuToggle {
@@ -40,7 +42,17 @@ body{
 
 #menu a {
   display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 32px;
+  color: #fff;
 
+}
+
+#menu a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 /*mobile first */
@@ -77,14 +89,14 @@ body{
 
 /*media queries*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
   .homepage-information-container {
     display: block;
     margin: 0 auto;
   }
 
   .homepage-information-item {
-    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -107,7 +119,7 @@ body{
 }
 
 .footer-info {
-  max-width: 1080px;
+  max-width: 1170px;
   margin: 0 auto;
   font-size: 0;
 }
@@ -164,9 +176,10 @@ ul {
 .footer-list-section {
   display: inline-block;
   vertical-align: top;
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 3%;
   width: 22%;
+  text-align: left;
 }
 
 .footer-list-section > h4{
@@ -180,8 +193,13 @@ ul {
     width: auto;
   }
 
-    .footer-list-section {
-      display: block;
+  .footer-list-section {
+    display: block;
+    margin: 0 auto;
+    width: -webkit-fill-available;
+    border-top: solid;
+    padding-left: 20px;
+    text-align: center;
     }
   }
 
@@ -227,17 +245,20 @@ ul {
   .socialmediatext {
     display: block;
     font-size: 12px;
-    background-color: black;
-    float: right;
+    float: none;
   }
 
   .footer-bottom-section {
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
   .footer-info p span {
     position: absolute;
     bottom: 0;
 
+  }
+
+  .footer-social-section {
+    text-align: center;
   }
 }
