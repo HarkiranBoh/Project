@@ -145,6 +145,8 @@ nav a:hover::before {
   .footer-info{
     width: auto;
     display: block;
+    background-color: #201F51;
+    color: #fff;
   }
 
   .footer-list-section {
@@ -156,7 +158,8 @@ nav a:hover::before {
 .homepage-footer {
   border: 1px solid black;
   position: relative;
-  background-color: #5e5c5c;
+  /*background-color: #5e5c5c;*/
+
 }
 
 .footer-info {
@@ -179,12 +182,11 @@ nav a:hover::before {
 .main-footer > li,
 .main-footer p {
   font-weight:bold;
-  color: #7b7b7b;
+  /*color: #7b7b7b;*/
 }
 
 .main-footer-text {
-  font-weight:bold;
-  color: #7b7b7b;
+  /*color: #7b7b7b;*/
 }
 
 .footer-left-free > li {
@@ -193,7 +195,7 @@ nav a:hover::before {
 .footer-info li{
   list-style-type: none;
   font-weight:bold;
-  color: #7b7b7b;
+  /*color: #7b7b7b;*/
 }
 
 .footer-left-custom {
@@ -201,7 +203,7 @@ nav a:hover::before {
 }
 
 .footer-bottom-section{
-  background-color: #393939;
+  background-color: #101d30;
   color: #716f6f;
   font-family: sans-serif;
   font-weight: bold;
@@ -216,14 +218,14 @@ ul {
 .footer-list-section {
   display: inline-block;
   vertical-align: top;
-  font-size: 18px;
+  font-size: 12px;
   margin-right: 1%;
   width: 22%;
   text-align: left;
 }
 
 .footer-list-section > h4{
-  color:#7b7b7b;
+  /*color:#7b7b7b;*/
 }
 
 @media screen and (max-width: 1024px) {
