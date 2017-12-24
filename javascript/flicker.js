@@ -8,7 +8,7 @@
 
   let baseURL = "https://api.flickr.com/services/rest/? \
                 method=flickr.photos.search& \
-                api_key=YOUR-API-KEY-HERE& \
+                api_key=f5c6963f472da5a33f646ce44f290a92& \
                 format=json& \
                 per_page=20& \
                 nojsoncallback=1& \
