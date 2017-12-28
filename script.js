@@ -3,7 +3,7 @@
 function initMap() {
   let leicester = {lat: 52.6333, lng: -1.1333};
   let dmu = {lat: 52.629311, lng: -1.137836};
-  let uol = {lat: 52.620956, lng: -1.124049};
+/*  let uol = {lat: 52.620956, lng: -1.124049};*/
   let mapDemo = document.getElementById("map");
 
   // this sets the default location for when the map is first loaded
@@ -18,11 +18,14 @@ function initMap() {
     map: map,
     title: 'The Good Guys'
   });
-  let markerUoL = new google.maps.Marker({
+
+/**
+ *  let markerUoL = new google.maps.Marker({
     position: uol,
     map: map,
     title: 'The Bad Guys'
   });
+ */
 }
 
 
@@ -59,3 +62,5 @@ index++;
     x[index-1].style.display = "block";
     //setTimeout(autoSlide,2000);
 }
+
+//form validation
