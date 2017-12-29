@@ -80,6 +80,7 @@ nav a {
 
 nav a:hover {
   color: red;
+  text-decoration: none;
 }
 
 nav a::before {
@@ -239,6 +240,7 @@ ul {
 @media screen and (min-width: 768px) {
 .homepage-footer {
       width: auto;
+      margin-top: 10px;
     }
 
 .footer-list-section {
@@ -303,8 +305,8 @@ ul {
 
 
 #map {
-  height: 200px;
-  width: 30%;
+  height: 400px;
+  width: 50%;
   margin: 0 auto;
   padding: 30px;
   margin-bottom: 70px;
@@ -420,12 +422,22 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #f3f4f4;
+}
+
+.event-text-container p {
+  padding: 10px;
 }
 
 .news-text-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #f3f4f4;
+}
+
+.news-text-container p {
+  padding: 10px;
 }
 
 .event-image {
@@ -437,14 +449,18 @@ button {
 
 }
 
-
+/*
 fieldset {
   border: none;
+  background-color: #f3f4f4;
+
 }
 
 input, textarea {
   border: 1px solid #333;
   padding: 3px 5px;
+  width: 80%;
+  background-color: grey;
 }
 input[aria-invalid="true"], textarea[aria-invalid="true"] {
   border: 1px solid #f00;
@@ -454,11 +470,57 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] {
 form p label {
   display: inline-block;
   width: 7em;
+  float: left;
 }
 form p label abbr {
   border: none;
   font-weight: bold;
   color: #f00;
+}
+
+
+*/
+fieldset {
+  border: none;
+  background-color: #f3f4f4;
+
+}
+#myform p label {
+  float: left
+}
+
+input[aria-invalid="true"], textarea[aria-invalid="true"] {
+  border: 1px solid #f00;
+  box-shadow: 0 0 4px 0 #f00;
+}
+
+.contact-button {
+  width: 60%;
+  background-color: grey;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border: none;
+
+}
+
+.contact-button:hover{
+  background-color: red;
+}
+
+@media screen and (min-width: 768px){
+#myform {
+  margin: 0 auto;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+}
+.map-container {
+  display: flex;
+  flex-direction: row;
+}
+
 }
 /*media queries
 min-width: 320px moblile

@@ -63,4 +63,4 @@ index++;
     //setTimeout(autoSlide,2000);
 }
 
-//form validation
+//flickrQuery
