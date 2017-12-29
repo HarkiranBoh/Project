@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="javascript/scripts.js"></script>
   </head>
   <body>
     <header>
@@ -21,20 +22,41 @@
         </nav>
       </div>
     </header>
-    <div class="about-container">
-      <div class="about-info">
-        <h3>Our Mission</h3>
-        <p>To get more people inspired!</p>
-        <h3>About</h3>
-        <p>TUT provides technology career inspiration for people aged 13-30 by establishing networks of people that work in, or have an interest in technology.</p>
-        <p>By helping to form these networks through discussion and events, TUT encourages mentorship and the support of young people emboldening to work towards a career in technology</p>
-      </div>
-      <div class="about-employee">
-        <h3>The Team</h3>
-        <img src="./img/founder.jpg" alt="founder" class="founder-img">
-        <p>Hi im blah blah from blah blah land.</p>
-      </div>
-    </div>
+
+  <h2>Click the headings to find out more about TechUsTogether!</h2>
+    <section class="about-accordian">
+      <article>
+        <label for="q01"><strong>The Mission</strong></label>
+        <input type="checkbox" id="q01">
+        <div class="answer">
+          <p>To get more people inspired!!</p>
+        </div>
+      </article>
+
+      <article>
+        <label for="q02"><strong>About</strong></label>
+        <input type="checkbox" id="q02">
+        <div class="answer">
+          <p>TUT provides technology career inspiration for people by establishing networks of people that work in, or have an interest in technology.
+          By helping to form these networks through discussion and events, TUT encourages mentorship and the support of young people emboldening to work towards a career in technology </p>
+        </div>
+      </article>
+
+      <article>
+        <label for="q03"><strong>The Team</strong></label>
+        <input type="checkbox" id="q03">
+        <div class="answer">
+          <img src="img/founder.jpg" alt="founder" class="founder-img">
+          <p>Hi my name is Kate Lowe and I am one of the founders Tech us Together. I am currently doing a bachelors degree in computer science.
+            I was inspired by my recent trip to San Fransisco about encouranging more people to get into technology driven careers.
+            I want to use my platform to help others gain more knowledge or more of an insight into the world of technology and potentially help others by bringing people together!
+           </p>
+        </div>
+      </article>
+    </section>
+    <!-- END CSS only show hide section -->
+
+
     <footer class="homepage-footer">
       <section class="footer-info">
         <div class="footer-list-section">
@@ -63,17 +85,14 @@
         <div class="footer-list-section">
            <h4>Follow us for more information: </h4>
            <div class="circle">
-            <!--  <img class="icon" src="http://img4.imagetitan.com/img4/small/14/14_1471022310_06-facebook.png" alt="facebook">-->
             <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
            </div>
            <p class="socialmediatext"> Join Facebook group</p>
            <div class="circle">
-              <!--<img class="icon" src="http://img4.imagetitan.com/img4/small/14/14_1471022328_03-twitter.png" alt="twitter">-->
               <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
            </div>
            <p class="socialmediatext">Follow on twitter</p>
            <div class="circle">
-            <!--  <img class= "icon" src="http://img4.imagetitan.com/img4/small/14/14_1471022350_33-pinterest.png" alt="pintrest"> -->
             <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
            </div>
            <p class="socialmediatext">Follow on instagram</p>
@@ -85,5 +104,6 @@
         <p><span class="footer-bottom-rights">©2017 Tech Us Together. All rights reserved</span></p>
       </div>
     </div>
+
   </body>
 </html>

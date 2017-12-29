@@ -137,7 +137,7 @@ nav a:hover::before {
 
   .homepage-information-container {
     display: flex;
-    width: 100%
+    width: 100%;
     padding: 30px;
   }
 
@@ -262,9 +262,7 @@ ul {
 }
 
 .circle {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+
   float: left;
   clear: both;
   margin: 5px;
@@ -489,6 +487,9 @@ fieldset {
   float: left
 }
 
+#myform input textarea {
+  width: 80%;
+}
 input[aria-invalid="true"], textarea[aria-invalid="true"] {
   border: 1px solid #f00;
   box-shadow: 0 0 4px 0 #f00;
@@ -527,3 +528,49 @@ min-width: 320px moblile
 min-width: 640px tablet
 min-width: 960px desktop
 */
+
+
+/* CSS only show hide */
+.about-accordian input {
+  visibility: hidden;
+}
+
+.about-accordian input[type=checkbox]:checked + div {
+  transition: all 1s;
+  height: auto;
+  opacity: 1;
+}
+
+.about-accordian input[type=checkbox]:checked + div p {
+  height: auto;
+  opacity: 1;
+}
+
+.about-accordian input:before {
+  /* font-family: FontAwesome; */
+  /* content: "\f0fe"; */
+  content: "\002295";
+  position: absolute;
+  left: 15px;
+  visibility: visible;
+}
+
+.about-accordian input[type=checkbox]:checked:before {
+  /* content: "\f146"; */
+  content: "\002296";
+}
+
+.about-accordian label h3 {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
+
+.answer,
+.answer p {
+  height: 0;
+  opacity: 0;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+/* CSS only show hide */
